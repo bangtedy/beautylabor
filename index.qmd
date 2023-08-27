@@ -2,7 +2,7 @@
 title: "Beauty and the Wage"
 subtitle: "Discrimination in the Labor Market"
 author: "Tedy Herlambang"
-institute: Brawijaya University
+institute: Faculty of Economics and Business
 format: 
   revealjs:
     template-partials:
@@ -11,19 +11,23 @@ format:
     multiplex: true
 ---
 
-## Articles:
+*For students who care about how the world works, microeconomics is probably the most relevant, interesting, and important subject they can study. (Macroeconomics is the second-most important subject). ... In fact, even understanding the news each day often requires knowledge of microeconomics*.
 
-1.  Beauty and the Labor Market. Daniel S. Hamermesh and Jeff E. Biddle (1994). JAER, 84(5).
-2.  Beauty, Productivity, and Discrimination. Jeff E. Biddle; Daniel S. Hamermesh (1998). JLE 16(Jan).
-3.  Beauty too rich for use. Daniel S. Hamermesh and Andrew K. Leigh (2022). JLE 76.
-4.  Beauty is in the eye of the employer. Offer Moshe Shapir and Zeev Shtudiner (2022). Front. Psych. Vol. 13.
+<font size="-0.5">`Robert S. Pyndick and Daniel L. Rubinfeld (Microeconomics, 2018 p.15)`</font>
 
-## Potret
+## News
 
 ![](potret.png){.absolute top=200 left=0 width="350" height="300"}
 ![](potret2.png){.absolute top=50 right=50 width="450" height="250"}
 
 ![](potret3.png){.absolute bottom=0 right=50 width="400" height="270"}
+
+## Articles
+
+1.  Beauty and the Labor Market. Daniel S. Hamermesh and Jeff E. Biddle (1994). JAER, 84(5).
+2.  Beauty, Productivity, and Discrimination. Jeff E. Biddle; Daniel S. Hamermesh (1998). JLE 16(Jan).
+3.  Beauty too rich for use. Daniel S. Hamermesh and Andrew K. Leigh (2022). JLE 76.
+4.  Beauty is in the eye of the employer. Offer Moshe Shapir and Zeev Shtudiner (2022). Front. Psych. Vol. 13.
 
 ## Main Objective
 
@@ -41,7 +45,7 @@ format:
 -   Beauty is not merely correlated with but actually causes differences in earnings.
 -   Possible causes:employer discrimination, customer discrimination
 -   Employer discrimination X.
--   Clients prefer to engage with better-looking attorneys --\> more attractive men obtain partnerships early.
+-   Clients prefer to engage with better-looking attorneys -> more attractive men obtain partnerships early.
 -   Workers choose type of work where the payoff to the characteristic with which they are relatively well endowed is the greatest
 
 ## Findings from 3
@@ -80,51 +84,44 @@ summary(model_beauty)
 
 ## Theoretical Background (1)
 
--   The theory of competitive labor markets tells us that differences in pay reflect differences in the corresponding VMP
-
-$$VMP_L = P_Q*MP_L$$
-
--   Value of marginal product of labor ($VMP_L$) the dollar value of the additional output a firm gets by employing one additional unit of labor
+-   The theory of competitive labor markets: differences in pay reflect differences in the corresponding VMPL.
+-   Value of marginal product of labor (VMPL) the dollar value of the additional output a firm gets by employing one additional unit of labor
 -   This difference in productivity may have resulted from an underlying difference in talent or training
 -   Yet often we see large salary differences even among people who appear equally talented and hardworking.
 
 ## Theoretical Background (1)
 
--   Why do lawyers earn so much more than those plumbers who are just as smart as they are and work just as hard?
--   And why do surgeons earn so much more than general practitioners?
--   Only differences in talent, luck, or hard work can account for long-run differences in earnings.
+-    Only differences in talent, luck, or hard work can account for long-run differences in earnings.
+-  Why do lawyers earn so much more than plumbers who are just as smart as they are and work just as hard?
+-   Why do surgeons earn so much more than general practitioners?
 -   If general practitioners could boost their incomes by becoming surgeons, why didn't they become surgeons in the first place?
 
 ## Human Capital Theory
 
--   Individual's VMP is proportional to their stock of human capital: an amalgam of factors such as education, experience, training, intelligence, energy, work habits, trustworthiness, and initiative.
--   According to this theory, some occupations pay better than others because they require larger stocks of human capital.
--   A general practitioner could become a surgeon, but only by extending her formal education by several more years.
+-   Individual's VMP is proportional to their stock of human capital: education, experience, training, intelligence, energy, work habits, trustworthiness, and initiative.
+-   Some occupations pay better than others because they require larger stocks of human capital.
+-   A general practitioner could become a surgeon by extending her formal education by several more years.
 -   Differences in demand can result in some kinds of human capital being more valuable than others.
 
 ## Discrimination in the labor market
 
--   **Discrimination by Employers**: wage differentials arise from an arbitrary preference by an employer for one group of workers over an- other.
-    -   males and females, are equally productive, on average, yet some employers prefer hiring males and are willing to pay higher wages to do so.
+-   **Discrimination by Employers**: wage differentials arise from an arbitrary preference by an employer for one group of workers over another.
 -   **Customer discrimination**: some believe that juries and clients are less likely to take female or minority attorneys seriously.
+-  **Winner-take-all-markets**: one in which small differences in human capital translate into large differences in pay -> Salma Salsabil Indonesia Idol?
 
 ## Other sources of the wage gap (1)
 
--   Jobs that involve exposure to physical risk, command higher wages, and if men are relatively more willing to accept such risks, they will earn more than females with otherwise identical stocks of human capital.
+-   Jobs involve exposure to physical risk, command higher wages and if men are relatively more willing to accept such risks, they will earn more than females with otherwise identical stocks of human capital.
 -   The same difference would result if employers felt constrained by social norms not to assign female employees to risky jobs.
 
 ## Other sources of the wage gap (2)
 
 -   Elements of human capital that are difficult to measure:
     -   Productivity is influenced not only by the quantity of education an individual has, which is easy to measure, but also by its quality, which is much harder to measure.
--   Differences in the courses people take in college appear to have similar implications for differences in productivity.
-    -   For instance, students in math, engineering, or business---male or female---tend to earn significantly higher salaries than those who concentrate in the humanities.
-
+    -   Students in math, engineering, or business-male or female-tend to earn significantly higher salaries than those who concentrate in the humanities.
 
 ## Possible replication in Indonesia
-
 -   Datamikro Sakernas dan Susenas oleh BPS
     -   Item kecantikan dan ketampanan?
-
     -   Variabel demografi: umur, jenis kelamin, desa, kota, pendidikan, agama dll
 -   Indonesian Family Life Survey (IFLS) 2014/2015
