@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.3.353">
 
   <meta name="author" content="Tedy Herlambang">
-  <title>Discrimination in the Labor Market</title>
+  <title>Beauty and the Wage</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,17 +326,11 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Discrimination in the Labor Market</h1>
-
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Tedy Herlambang 
-</div>
-</div>
-</div>
-
+<section id="title-slide" class="center">
+  <h1 class="Judul">Beauty and the Wage</h1>
+  <p class="subjudul">Discrimination in the Labor Market</p>
+  <p class="aauthor">Tedy Herlambang</p>
+  <p class="institute">Brawijaya University</p>
 </section>
 <section id="articles" class="slide level2">
 <h2>Articles:</h2>
@@ -347,14 +341,19 @@ Tedy Herlambang
 <li>Beauty is in the eye of the employer. Offer Moshe Shapir and Zeev Shtudiner (2022). Front. Psych. Vol. 13.</li>
 </ol>
 </section>
+<section id="potret" class="slide level2">
+<h2>Potret</h2>
+<p><img data-src="potret.png" class="absolute" style="top: 200px; left: 0px; width: 350px; height: 300px; "> <img data-src="potret2.png" class="absolute" style="top: 50px; right: 50px; width: 450px; height: 250px; "></p>
+<p><img data-src="potret3.png" class="absolute" style="bottom: 0px; right: 50px; width: 400px; height: 270px; "></p>
+</section>
 <section id="main-objective" class="slide level2">
 <h2>Main Objective</h2>
 <ul>
 <li>The eﬀects of physical appearance on labor market outcomes and economic success in general</li>
 </ul>
 </section>
-<section id="main-findings-1" class="slide level2">
-<h2>Main Findings (1)</h2>
+<section id="findings-from-1" class="slide level2">
+<h2>Findings from 1</h2>
 <ul>
 <li>Plain people earn less than average-looking people, who earn less than the good-looking.</li>
 <li>The plainness penalty is 5-10 percent,slightly larger than the beauty premium.</li>
@@ -362,8 +361,8 @@ Tedy Herlambang
 <li>Unattractive women have lower labor-force participation rates and marry men with less human capital</li>
 </ul>
 </section>
-<section id="main-findings-2" class="slide level2">
-<h2>Main Findings (2)</h2>
+<section id="findings-from-2" class="slide level2">
+<h2>Findings from 2</h2>
 <ul>
 <li>Beauty is not merely correlated with but actually causes differences in earnings.</li>
 <li>Possible causes:employer discrimination, customer discrimination</li>
@@ -372,8 +371,8 @@ Tedy Herlambang
 <li>Workers choose type of work where the payoff to the characteristic with which they are relatively well endowed is the greatest</li>
 </ul>
 </section>
-<section id="main-findings-3" class="slide level2">
-<h2>Main Findings (3)</h2>
+<section id="findings-from-3" class="slide level2">
+<h2>Findings from 3</h2>
 <ul>
 <li>Billionaires are both more educated and better-looking than average for their age.</li>
 <li>Among billionaires, wealth is neither related to beauty nor to educational attainment.</li>
@@ -382,11 +381,65 @@ Tedy Herlambang
 <li>The ﬁndings suggest the powerful role of luck within the extremes of the distributions of economic outcomes.</li>
 </ul>
 </section>
-<section id="main-findings-4" class="slide level2">
-<h2>Main Findings (4)</h2>
+<section id="findings-from-4" class="slide level2">
+<h2>Findings from 4</h2>
 <ul>
 <li>Even among accounting ﬁrms, where professionalism is well deﬁned, discrimination against candidates based on traits exists.</li>
 </ul>
+</section>
+<section id="research-design" class="slide level2">
+<h2>Research Design</h2>
+<ul>
+<li>What constitutes beauty…are there common agreements?
+<ul>
+<li>anthropologists, sociologists, social psychologists</li>
+<li>few consistent standards across cultures</li>
+<li>these standards change slowly</li>
+</ul></li>
+<li>Data: household surveys for US and Canada</li>
+<li>Interviewer rate the respondent’s physical appearance</li>
+<li>Other demographics variables</li>
+<li>Regression</li>
+</ul>
+</section>
+<section id="replication" class="slide level2">
+<h2>Replication</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = lwage ~ belavg + abvavg + exper + goodhlth + black + 
+    female + married + south + bigcity + smllcity + service + 
+    expersq + educ)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.41515 -0.29116  0.00905  0.28228  3.05551 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  3.875e-01  9.640e-02   4.020 6.17e-05 ***
+belavg      -1.449e-01  4.133e-02  -3.506 0.000472 ***
+abvavg       1.061e-03  2.989e-02   0.036 0.971680    
+exper        4.193e-02  4.392e-03   9.547  &lt; 2e-16 ***
+goodhlth     6.748e-02  5.328e-02   1.267 0.205558    
+black       -7.842e-02  5.174e-02  -1.516 0.129885    
+female      -3.896e-01  3.090e-02 -12.606  &lt; 2e-16 ***
+married      3.875e-02  3.114e-02   1.244 0.213629    
+south        8.047e-02  3.486e-02   2.308 0.021162 *  
+bigcity      2.570e-01  3.756e-02   6.844 1.21e-11 ***
+smllcity     9.516e-02  3.071e-02   3.099 0.001987 ** 
+service     -1.542e-01  3.226e-02  -4.780 1.96e-06 ***
+expersq     -6.572e-04  9.744e-05  -6.744 2.35e-11 ***
+educ         6.491e-02  5.630e-03  11.528  &lt; 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.4632 on 1246 degrees of freedom
+Multiple R-squared:  0.3993,    Adjusted R-squared:  0.3931 
+F-statistic: 63.72 on 13 and 1246 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
 </section>
 <section id="theoretical-background-1" class="slide level2">
 <h2>Theoretical Background (1)</h2>
@@ -447,60 +500,6 @@ Tedy Herlambang
 <li>For instance, students in math, engineering, or business—male or female—tend to earn significantly higher salaries than those who concentrate in the humanities.</li>
 </ul></li>
 </ul>
-</section>
-<section id="research-design" class="slide level2">
-<h2>Research Design</h2>
-<ul>
-<li>What constitutes beauty…are there common agreements?
-<ul>
-<li>anthropologists, sociologists, social psychologists</li>
-<li>few consistent standards across cultures</li>
-<li>these standards change slowly</li>
-</ul></li>
-<li>Data: household surveys for US and Canada</li>
-<li>Interviewer rate the respondent’s physical appearance</li>
-<li>Other demographics variables</li>
-<li>Regression</li>
-</ul>
-</section>
-<section id="replication" class="slide level2">
-<h2>Replication</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>
-Call:
-lm(formula = lwage ~ belavg + abvavg + exper + goodhlth + black + 
-    female + married + south + bigcity + smllcity + service + 
-    expersq + educ)
-
-Residuals:
-     Min       1Q   Median       3Q      Max 
--1.41515 -0.29116  0.00905  0.28228  3.05551 
-
-Coefficients:
-              Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept)  3.875e-01  9.640e-02   4.020 6.17e-05 ***
-belavg      -1.449e-01  4.133e-02  -3.506 0.000472 ***
-abvavg       1.061e-03  2.989e-02   0.036 0.971680    
-exper        4.193e-02  4.392e-03   9.547  &lt; 2e-16 ***
-goodhlth     6.748e-02  5.328e-02   1.267 0.205558    
-black       -7.842e-02  5.174e-02  -1.516 0.129885    
-female      -3.896e-01  3.090e-02 -12.606  &lt; 2e-16 ***
-married      3.875e-02  3.114e-02   1.244 0.213629    
-south        8.047e-02  3.486e-02   2.308 0.021162 *  
-bigcity      2.570e-01  3.756e-02   6.844 1.21e-11 ***
-smllcity     9.516e-02  3.071e-02   3.099 0.001987 ** 
-service     -1.542e-01  3.226e-02  -4.780 1.96e-06 ***
-expersq     -6.572e-04  9.744e-05  -6.744 2.35e-11 ***
-educ         6.491e-02  5.630e-03  11.528  &lt; 2e-16 ***
----
-Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-Residual standard error: 0.4632 on 1246 degrees of freedom
-Multiple R-squared:  0.3993,    Adjusted R-squared:  0.3931 
-F-statistic: 63.72 on 13 and 1246 DF,  p-value: &lt; 2.2e-16</code></pre>
-</div>
-</div>
 </section>
 <section id="possible-replication-in-indonesia" class="slide level2">
 <h2>Possible replication in Indonesia</h2>
