@@ -11,16 +11,15 @@ format:
     multiplex: true
 ---
 
-*For students who care about how the world works, microeconomics is probably the most relevant, interesting, and important subject they can study. (Macroeconomics is the second-most important subject). In fact, even understanding the news each day often requires knowledge of microeconomics*.
+*For students who care about how the world works, microeconomics is probably the most relevant, interesting, and important subject they can study. (Macroeconomics is the second-most important subject). In fact, even understanding the* **news** *each day often requires knowledge of microeconomics*.
 
 `Robert S. Pyndick and Daniel L. Rubinfeld (Microeconomics, 2018 p.15)`
 
 ## News
 
-![](potret.png){.absolute top=200 left=0 width="350" height="300"}
-![](potret2.png){.absolute top=50 right=50 width="450" height="250"}
+![](potret.png){.absolute top="200" left="0" width="350" height="300"} ![](potret2.png){.absolute top="50" right="50" width="450" height="250"}
 
-![](potret3.png){.absolute bottom=0 right=50 width="400" height="270"}
+![](potret3.png){.absolute bottom="0" right="50" width="400" height="270"}
 
 ## Articles
 
@@ -45,7 +44,7 @@ format:
 -   Beauty is not merely correlated with but actually causes differences in earnings.
 -   Possible causes:employer discrimination, customer discrimination
 -   Employer discrimination X.
--   Clients prefer to engage with better-looking attorneys -> more attractive men obtain partnerships early.
+-   Clients prefer to engage with better-looking attorneys -\> more attractive men obtain partnerships early.
 -   Workers choose type of work where the payoff to the characteristic with which they are relatively well endowed is the greatest
 
 ## Findings from 3
@@ -81,17 +80,14 @@ attach(beauty)
 model_beauty <-lm(lwage~belavg+abvavg+exper+goodhlth+black+female+married+south+bigcity+smllcity+service+expersq+educ) 
 summary(model_beauty)
 ```
+
 ## For men
-$$\hat {lwage} = \hat \beta_0 - .164 \,belavg + .016 \,abvavg + other \,factor$$
-For men, those with below average looks are estimated to earn about 16.4% less than an average-
-looking man who is the same in other respects (including education, experience, tenure, marital status, and race). The effect is statistically different from zero. Men with above average 
-looks are estimated to earn only 1.6% more than men with average looks, and the effect is not statistically significant.
+
+$$\hat {lwage} = \hat \beta_0 - .164 \,belavg + .016 \,abvavg + other \,factor$$ For men, those with below average looks are estimated to earn about 16.4% less than an average- looking man who is the same in other respects (including education, experience, tenure, marital status, and race). The effect is statistically different from zero. Men with above average looks are estimated to earn only 1.6% more than men with average looks, and the effect is not statistically significant.
 
 ## For women
 
-$$\hat {lwage} = \hat \beta_0 - .124 \,belavg + .035 \,abvavg + other \,factor$$
-A woman with below average looks earns about 12.4% less than an otherwise comparable 
-average-looking woman.As was the case for men, the estimate on abvavg is much smaller in magnitude and not statistically different from zero.
+$$\hat {lwage} = \hat \beta_0 - .124 \,belavg + .035 \,abvavg + other \,factor$$ A woman with below average looks earns about 12.4% less than an otherwise comparable average-looking woman.As was the case for men, the estimate on abvavg is much smaller in magnitude and not statistically different from zero.
 
 <font size="-0.5">see Wooldridge</font>
 
@@ -104,8 +100,8 @@ average-looking woman.As was the case for men, the estimate on abvavg is much sm
 
 ## Theoretical Background (1)
 
--    Only differences in talent, luck, or hard work can account for long-run differences in earnings.
--  Why do lawyers earn so much more than plumbers who are just as smart as they are and work just as hard?
+-   Only differences in talent, luck, or hard work can account for long-run differences in earnings.
+-   Why do lawyers earn so much more than plumbers who are just as smart as they are and work just as hard?
 -   Why do surgeons earn so much more than general practitioners?
 -   If general practitioners could boost their incomes by becoming surgeons, why didn't they become surgeons in the first place?
 
@@ -120,7 +116,7 @@ average-looking woman.As was the case for men, the estimate on abvavg is much sm
 
 -   **Discrimination by Employers**: wage differentials arise from an arbitrary preference by an employer for one group of workers over another.
 -   **Customer discrimination**: some believe that juries and clients are less likely to take female or minority attorneys seriously.
--  **Winner-take-all-markets**: one in which small differences in human capital translate into large differences in pay -> Salma Salsabil Indonesia Idol?
+-   **Winner-take-all-markets**: one in which small differences in human capital translate into large differences in pay -\> Salma Salsabil Indonesia Idol?
 
 ## Other sources of the wage gap (1)
 
@@ -134,6 +130,7 @@ average-looking woman.As was the case for men, the estimate on abvavg is much sm
     -   Students in math, engineering, or business-male or female-tend to earn significantly higher salaries than those who concentrate in the humanities.
 
 ## Possible replication in Indonesia
+
 -   Datamikro Sakernas dan Susenas oleh BPS
     -   Item kecantikan dan ketampanan?
     -   Variabel demografi: umur, jenis kelamin, desa, kota, pendidikan, agama dll
