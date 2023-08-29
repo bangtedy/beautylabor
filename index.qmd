@@ -11,26 +11,23 @@ format:
     multiplex: true
 ---
 
-*For students who care about how the world works, microeconomics is probably the most relevant, interesting, and important subject they can study. (Macroeconomics is the second-most important subject). In fact, even understanding the* **news** *each day often requires knowledge of microeconomics*.
+## Discrimination Research by Economists
 
-`Robert S. Pyndick and Daniel L. Rubinfeld (Microeconomics, 2018 p.15)`
+- Blacks
+- Hispanics
+- Asians
+- Women
+- Language minorities
+- Physically handicapped
 
-## News
-
-![](potret.png){.absolute top="200" left="0" width="350" height="300"} ![](potret2.png){.absolute top="50" right="50" width="450" height="250"}
-
-![](potret3.png){.absolute bottom="0" right="50" width="400" height="270"}
+## Main Objective
+-   The eﬀects of physical appearance on labor market outcomes and economic success in general
 
 ## Articles
-
 1.  Beauty and the Labor Market. Daniel S. Hamermesh and Jeff E. Biddle (1994). JAER, 84(5).
 2.  Beauty, Productivity, and Discrimination. Jeff E. Biddle; Daniel S. Hamermesh (1998). JLE 16(Jan).
 3.  Beauty too rich for use. Daniel S. Hamermesh and Andrew K. Leigh (2022). JLE 76.
 4.  Beauty is in the eye of the employer. Offer Moshe Shapir and Zeev Shtudiner (2022). Front. Psych. Vol. 13.
-
-## Main Objective
-
--   The eﬀects of physical appearance on labor market outcomes and economic success in general
 
 ## Findings from 1
 
@@ -83,11 +80,11 @@ summary(model_beauty)
 
 ## For men
 
-$$\hat {lwage} = \hat \beta_0 - .164 \,belavg + .016 \,abvavg + other \,factor$$ For men, those with below average looks are estimated to earn about 16.4% less than an average- looking man who is the same in other respects (including education, experience, tenure, marital status, and race). The effect is statistically different from zero. Men with above average looks are estimated to earn only 1.6% more than men with average looks, and the effect is not statistically significant.
+$$\hat {lwage} = \hat \beta_0 - .164 \,belavg + .016 \,abvavg + other \,factor$$ For men, those with below average looks are estimated to earn about 16.4% less than an average-looking man who is the same in other respects (including education, experience, tenure, marital status, and race). The effect is statistically different from zero. Men with above average looks are estimated to earn only 1.6% more than men with average looks, and the effect is not statistically significant.
 
 ## For women
 
-$$\hat {lwage} = \hat \beta_0 - .124 \,belavg + .035 \,abvavg + other \,factor$$ A woman with below average looks earns about 12.4% less than an otherwise comparable average-looking woman.As was the case for men, the estimate on abvavg is much smaller in magnitude and not statistically different from zero.
+$$\hat {lwage} = \hat \beta_0 - .124 \,belavg + .035 \,abvavg + other \,factor$$ A woman with below average looks earns about 12.4% less than an otherwise comparable average-looking woman. As was the case for men, the estimate on above average is much smaller in magnitude and not statistically different from zero.
 
 <font size="-0.5">see Wooldridge</font>
 
@@ -135,3 +132,15 @@ $$\hat {lwage} = \hat \beta_0 - .124 \,belavg + .035 \,abvavg + other \,factor$$
     -   Item kecantikan dan ketampanan?
     -   Variabel demografi: umur, jenis kelamin, desa, kota, pendidikan, agama dll
 -   Indonesian Family Life Survey (IFLS) 2014/2015
+
+## News
+
+![](potret.png){.absolute top="200" left="0" width="350" height="300"} ![](potret2.png){.absolute top="50" right="50" width="450" height="250"}
+
+![](potret3.png){.absolute bottom="0" right="50" width="400" height="270"}
+
+## Thus
+
+*For students who care about how the world works, microeconomics is probably the most relevant, interesting, and important subject they can study. (Macroeconomics is the second-most important subject). In fact, even understanding the* **news** *each day often requires knowledge of microeconomics*.
+
+`Pyndick and Rubinfeld (Microeconomics, 2018 p.15)`
