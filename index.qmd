@@ -4,26 +4,27 @@ subtitle: "Discrimination in the Labor Market"
 author: "Tedy Herlambang"
 institute: Faculty of Economics and Business
 format: 
-  revealjs:
-    template-partials:
-      - title-slide.html
+  letterbox-revealjs:
+    theme: [default, style.scss]
     chalkboard: true
     multiplex: true
 ---
 
 ## Discrimination Research by Economists
 
-- Blacks
-- Hispanics
-- Asians
-- Women
-- Language minorities
-- Physically handicapped
+-   Blacks
+-   Hispanics
+-   Asians
+-   Women
+-   Language minorities
+-   Physically handicapped
 
 ## Main Objective
+
 -   The eﬀects of physical appearance on labor market outcomes and economic success in general
 
 ## Articles
+
 1.  Beauty and the Labor Market. Daniel S. Hamermesh and Jeff E. Biddle (1994). JAER, 84(5).
 2.  Beauty, Productivity, and Discrimination. Jeff E. Biddle; Daniel S. Hamermesh (1998). JLE 16(Jan).
 3.  Beauty too rich for use. Daniel S. Hamermesh and Andrew K. Leigh (2022). JLE 76.
